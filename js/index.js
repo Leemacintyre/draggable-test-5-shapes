@@ -4,7 +4,7 @@ let count = 0
 const button = $('#button')
 
 function checkActive() {
-  if (count === 1) {
+  if (count === 5) {
     $(button).addClass('active')
   }
 }
